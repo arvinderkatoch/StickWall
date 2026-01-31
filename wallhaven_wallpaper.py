@@ -103,19 +103,19 @@ def main():
         sys.exit(0)
 
     try:
-        # Change once on start
+      
         change_wallpaper()
 
-        # Register shortcut
+       
         keyboard.add_hotkey("ctrl+alt+w", change_wallpaper)
 
-        # Keep app alive
+      
         while True:
             time.sleep(1)
     except KeyboardInterrupt:
         pass
     finally:
-        # Release mutex and close handle
+        
         try:
             ctypes.windll.kernel32.ReleaseMutex(handle)
             ctypes.windll.kernel32.CloseHandle(handle)
@@ -125,3 +125,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
