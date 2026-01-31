@@ -4,7 +4,7 @@ A lightweight Windows background utility that automatically fetches top-viewed w
 ⚡ Usage
 
 Build Application using pyinstaller --onefile --noconsole fileName.py
-Run the application
+File with exe extensnion will be generated in dist Folder.Run the application
 A new wallpaper is applied immediately
 Press Ctrl + Alt + W anytime to switch to another popular wallpaper
 Optionally add the app to Windows Startup to refresh wallpapers on every login
