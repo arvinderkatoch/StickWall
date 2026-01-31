@@ -1,0 +1,5 @@
+{
+  "search_url": "https://wallhaven.cc/search?sorting=views&order=desc",
+  "user_agent": "Mozilla/5.0",
+  "save_dir": "%TEMP%\\wallhaven"
+}
